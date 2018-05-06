@@ -62,7 +62,7 @@ TEXT_SHARE_SHARE2 = " ¡puntos! ¿Puedes hacerlo mejor?";
                     //0 1 2 3 4
                     //5 6 7 8 9
                     //10 11 12 13 14
-                    num_of_penalty: 1, //Numero maximo de penalty para finalizar el juego(o nivel)
+                    num_of_penalty: jQuery('#goles').val(), //Numero maximo de penalty para finalizar el juego(o nivel)
                     multiplier_step: 0, //0.1, //Incrementar el multiplicador de cada gol, en funcion de la calidad creo
                     fullscreen: true, //false para no MOSTRAR EL BOTÓN DE PANTALLA COMPLETA(FULLSCREEN)
                     num_levels_for_ads: 2//NÚMERO DE VUELTAS JUGADAS ANTES DE AD SHOWING. Quien define cdo salir "evento show_interlevel_ad"

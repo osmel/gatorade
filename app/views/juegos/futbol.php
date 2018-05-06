@@ -11,6 +11,7 @@
  ?>   
 
 
+<input type="hidden" id="goles" name="goles" value="<?php echo $this->session->userdata('total_goles'); ?>">
 <input type="hidden" id="jgo" name="jgo" value="<?php echo $jgo; ?>">
 
 <div class="container mecanica">

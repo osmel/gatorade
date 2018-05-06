@@ -536,6 +536,7 @@ function validar_tickets(){
 				if ($suma_cantidades==0)
 					$mis_errores["general"] = '<span class="error">Defina las cantidades</b> </span>';
 			}
+			$this->session->set_userdata('total_goles', $suma_cantidades );
 			//print_r( $data['presentacion'] );die;
 			//print_r(count($this->input->post('pre')));
 			//die;
