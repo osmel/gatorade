@@ -40,12 +40,8 @@ TEXT_SHARE_SHARE2 = " ¡puntos! ¿Puedes hacerlo mejor?";
                         
                         [
 
-                        {id: 0, probability: pp}, {id: 1, probability: pp}, {id: 2, probability: pp},
-                        {id: 3, probability: pp}, {id: 4, probability: pp}, {id: 5, probability: pp},
-                        {id: 6, probability: pp}, {id: 7, probability: pp}, {id: 8, probability: pp},
-                        {id: 9, probability: pp}, {id: 10, probability: pp}, {id: 11, probability: pp},
-                        {id: 12, probability: pp}, {id: 13, probability: pp}, {id: 14, probability: pp}
-
+                       {id: 0, probability: 100}
+                       
                         ], 
 
                         //Objetivo del area de probabilidades comienza de la izquierda superior, hasta la derecha inferior
